@@ -92,6 +92,9 @@ ul {
     gap: 40px;
     padding: 24px 0;
 }
+.contacts-list-item {
+    padding: 24px 0;
+}
 .contacts-list-item-anchor {
     font-size: 16px;
     line-height: 150%;
