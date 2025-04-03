@@ -112,9 +112,10 @@ ul {
 .heading-section {
     background-color: #2e2f42;
     color: #ffffff;
-    padding: 120px 0;
+    padding: 188px 0;
 }
-.heading-section-title {    
+.heading-section-title {  
+    max-width: 496px;  
     font-weight: bold;
     font-size: 56px;
     line-height: 107%;
@@ -131,6 +132,11 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button-order-service:hover,
 .button-order-service:focus {
