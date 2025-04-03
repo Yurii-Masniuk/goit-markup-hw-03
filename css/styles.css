@@ -158,12 +158,17 @@ button {
     gap: 24px;
     justify-content: center;
 }
-.features-title {    
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 2%;
-    text-align: center;
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .features-list-title {
     margin-bottom: 8px;
