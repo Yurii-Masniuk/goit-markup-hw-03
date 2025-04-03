@@ -112,6 +112,7 @@ ul {
 .heading-section {
     background-color: #2e2f42;
     color: #ffffff;
+    padding: 120px 0;
 }
 .heading-section-title {    
     font-weight: bold;
@@ -142,6 +143,9 @@ ul {
 button {
     cursor: pointer;
 }
+.features-section {
+    padding: 120px 0;
+}
 .features-list {
     display: flex;
     gap: 24px;
@@ -169,6 +173,7 @@ button {
 }
 .team-section {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 .team-title {
     font-weight: 700;
@@ -200,6 +205,9 @@ button {
     line-height: 150%;
     letter-spacing: 0.02em;
 }
+.portfolio-section {
+    padding: 120px 0;
+}
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -208,6 +216,10 @@ button {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.portfolio-title-list {
+    display: flex;
+    gap: 40px;
 }
 .portfolio-title-list-item h3 {
     font-weight: 500;
