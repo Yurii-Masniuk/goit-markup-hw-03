@@ -21,15 +21,21 @@ ul {
 }
 .container {
     max-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
     display: flex;
 }
 .header-nav {
+    display: flex;
+    align-items: center;
+}
+.contacts-list {
     display: flex;
 }
 .header-nav-list {
@@ -43,9 +49,13 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .header-logo-studio {
     color: #2e2f42;
+}
+.header-nav-list {
+    gap: 40px;
 }
 .header-nav-list-item {
     font-weight: 500;
