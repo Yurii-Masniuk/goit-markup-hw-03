@@ -20,13 +20,16 @@ ul {
     list-style: none;
 }
 .container {
-    max-width: 100%;
+    max-width: 1158px;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
 }
 .header .container {
+    display: flex;
+}
+.header-nav {
     display: flex;
 }
 .header-nav-list {
