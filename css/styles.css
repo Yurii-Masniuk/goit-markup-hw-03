@@ -163,7 +163,7 @@ button {
     font-size: 36px;
     letter-spacing: 2%;
     text-align: center;
-    overflow: hidden;
+    visibility: hidden;
 }
 .features-list-title {
     margin-bottom: 8px;
