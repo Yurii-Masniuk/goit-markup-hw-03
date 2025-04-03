@@ -277,6 +277,7 @@ button {
 }
 .footer-container {
     background: #2e2f42;
+    padding: 100px;
 }
 .footer-logo {
     font-family: Raleway, sans-serif;
@@ -286,6 +287,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
