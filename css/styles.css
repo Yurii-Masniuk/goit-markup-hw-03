@@ -57,7 +57,6 @@ ul {
 }
 .header-nav-list {
     gap: 40px;
-    padding: 24px 0;
 }
 .header-nav-list-item {
     font-weight: 500;
@@ -65,20 +64,11 @@ ul {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
-}
-.header-nav-list-item:hover,
-.header-nav-list-item:focus {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-    padding: 24px 0;
 }
 .header-nav-list-item-anchor {
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 .header-nav-list-item-anchor:hover,
 .header-nav-list-item-anchor:focus {
@@ -86,12 +76,10 @@ ul {
 }
 .contacts {
     font-style: normal;
-    padding: 24px;
-    
+    margin-left: auto;
 }
 .contacts-list {
     gap: 40px;
-    padding: 24px 0;
 }
 .contacts-list-item {
     padding: 24px 0;
@@ -121,8 +109,10 @@ ul {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;    
-     
+    color: #ffffff; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;     
 }
 .button-order-service {
     color: #ffffff;
@@ -137,6 +127,8 @@ ul {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-order-service:hover,
 .button-order-service:focus {
@@ -259,7 +251,6 @@ button {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .portfolio-list-item {
     margin-bottom: 8px;
